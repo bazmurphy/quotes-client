@@ -27,7 +27,7 @@ const Info = () => {
                 <div className="info-source-code">
                     <span className="info-source-code-text">Source Code</span>
                     <img className="info-source-code-image" src="github-dark.png" alt="github logo"></img>
-                    <a href="https://github.com/bazmurphy/node-quotes-server-react-front-end" target="_blank" rel="noreferrer">https://github.com/bazmurphy/react-quotes</a>
+                    <a href="https://github.com/bazmurphy/react-quotes" target="_blank" rel="noreferrer">https://github.com/bazmurphy/react-quotes</a>
                 </div>
                 
                 <div className="info-hosted">
