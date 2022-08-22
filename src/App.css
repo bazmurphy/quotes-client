@@ -13,11 +13,8 @@ body {
 .App {
   display: flex;
   flex-direction: column;
-  /* border: 0.15rem solid hsla(248, 39%, 39%, 0.5); */
   border-radius: 0.5rem;
-  width: 600px;
-  /* background-color: hsla(195, 53%, 85%, 1); */
-  /* background-image: url("../public/paper.png"); */
+  width: 550px;
 }
 
 .quote-container {
@@ -27,7 +24,8 @@ body {
   padding: 1rem;
   border: 0.15rem solid hsla(248, 39%, 39%, 0.5);
   border-radius: 0.5rem;
-  background-color: hsla(195, 50%, 60%, 1);
+  box-shadow: 0.5rem 0.5rem 0.5rem 0 hsla(0, 0%, 0%, 0.2);
+  background-color: hsla(195, 50%, 60%, 0.8);
   background-image: url("../public/notebook.png");
   font-family: "Charm", serif;
 }
@@ -35,12 +33,14 @@ body {
 .quote-text {
   font-size: 2.4rem;
   font-weight: bold;
+  color:hsla(0, 0%, 0%, 0.7);
 }
 
 .quote-author {
   align-self: flex-end;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-weight: bold;
+  color:hsla(0, 0%, 0%, 0.5);
 }
 
 .functionality-container {
@@ -50,16 +50,19 @@ body {
 }
 
 .functionality-button {
-  padding: 1rem 2rem;
+  padding: 0.75rem 1.5rem;
   border: 0.15rem solid hsla(248, 39%, 39%, 0.5);
   border-radius: 0.5rem;
+  background: hsla(255, 100%, 100%, 0.4);
+  box-shadow: 0.25rem 0.25rem 0.25rem 0 hsla(0, 0%, 0%, 0.2);
   font-family: "Charm", serif;
   font-size: 1.2rem;
   font-weight: bold;
+  color:hsla(0, 0%, 0%, 0.75);
   cursor: pointer;
 }
 .functionality-button:hover {
-  background-color: hsl(0, 0%, 90%);
+  background: hsla(255, 100%, 100%, 0.6);
 }
 
 .info-container {
@@ -96,5 +99,5 @@ body {
 }
 
 .info-container a {
-  color:hsla(248, 39%, 39%, 1);
+  color:hsla(248, 39%, 39%, 0.8);
 }
