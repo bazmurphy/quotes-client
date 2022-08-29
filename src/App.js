@@ -9,26 +9,19 @@ function App() {
   const [refresh, setRefresh] = React.useState(0)
    
   React.useEffect(() => {
-    fetch(`https://cyf-bazmurphy-quotes.herokuapp.com/quotes/random`)
+    fetch(`https://cyf-bazmurphy-quotes-server.glitch.me/quotes/random`)
       .then(res => res.json())
       .then(data => setQuote(data))
       .catch(error => console.log(error));
   }, [refresh]);
 
   const getAnotherQuote = () => {
-
-    // fetch(`https://cyf-bazmurphy-quotes.herokuapp.com/quotes/random`)
-    // .then(res => res.json())
-    // .then(data => setQuote(data))
-    // .catch(error => console.log(error));
-
-    // ^ this is not DRY but i want to FETCH again onClick of the button
-
+  
     setRefresh(Math.random())
+    // ^ i want to FETCH again onClick of the button
     // ^so i came up with this sillyness to trigger a State Change, to trigger a refresh, to trigger a new fetch!
     // console.log(refresh);
   }
-
 
   return (
     <div className="App">
