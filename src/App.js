@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <Info />
+      {/* <Info /> */}
       <div className="functionality-container">
         <button className="functionality-button" onClick={getAnotherQuote}>Get Another Quote</button>
       </div>
