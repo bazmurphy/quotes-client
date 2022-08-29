@@ -14,14 +14,14 @@ body {
   display: flex;
   flex-direction: column;
   border-radius: 0.5rem;
-  width: 550px;
+  max-width: 550px;
 }
 
 .quote-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1rem;
+  padding: 2rem;
   border: 0.15rem solid hsla(248, 39%, 39%, 0.5);
   border-radius: 0.5rem;
   box-shadow: 0.5rem 0.5rem 0.5rem 0 hsla(0, 0%, 0%, 0.2);
