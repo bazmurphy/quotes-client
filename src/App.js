@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Info from './Info';
 
 function App() {
 
@@ -25,7 +24,6 @@ function App() {
 
   return (
     <div className="App">
-      {/* <Info /> */}
       <div className="functionality-container">
         <button className="functionality-button" onClick={getAnotherQuote}>Get Another Quote</button>
       </div>
